@@ -1,4 +1,5 @@
-# Radicale on Raspberry on a raid in a venv with git with init.d and gunicorn
+# Radicale running on a Raspberry Pi 
+#### (on a raid in a venv with git with init.d and gunicorn)
 
 I will try to show the best way to install a Radicale server on a Raspberry on a Devuan without systemd.
 
