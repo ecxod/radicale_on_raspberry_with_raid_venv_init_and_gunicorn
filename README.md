@@ -204,6 +204,10 @@ Re-type new password:
 ```
 #### start radicale with gunicorn
 
+If you want to connect Radicale directly to the Internet, you should not do this, but use a reverse proxy.
+Here is the author's recommendation on how to do this: https://radicale.org/v3.html#reverse-proxy
+It is best if the reverse proxy is not on the same machine as radicale.
+
 ```sh
 (virtual) radicale@black:~/virtual$ gunicorn -D \
                                              --bind '192.168.178.6:5232' \
